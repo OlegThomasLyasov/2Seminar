@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: linear-gradient(#ffe0e0, #ccceed);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+    color: darkgreen;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.titleText {
+    font-size: 50px;
+    font-style: italic;
+}
+.titleDesc {
+    font-size: 30px;
+}
+.img {
+    margin-top: 20px;
+}
+hr {
+    background-color: blue;
+    height: 3px;
+}
+.titleList {
+    font-size: 35px;
+    margin-left: 40px;
+}
+.itemList {
+    font-size: 25px;
+    margin-bottom: 20px; 
+}
+ul li {
+    color: red;
+}
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+a:hover {
+    color: chartreuse;
+}
